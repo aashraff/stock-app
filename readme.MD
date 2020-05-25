@@ -9,6 +9,7 @@ App to retrieve stock time series data from public API (Quandl) and visualise st
 - Front end to visualise the time series data by available stock code
 
 ## Tech stack
+- Quasar
 - CSS
 - PUG HTML Template
 - NodeJs
@@ -23,5 +24,9 @@ Starting the application
 
 ```bash
 $ cd ./api
+$ npm install
 $ npm start
+$ cd ../app
+$ npm install
+$ quasar dev
 ```
