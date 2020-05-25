@@ -1,7 +1,7 @@
 /**
  * Required External Modules
  */
-import express = require ("express");
+import express = require("express");
 import * as path from "path";
 import * as bodyParser from "body-parser";
 import index from "./routes/index";
@@ -23,7 +23,7 @@ const port = process.env.PORT || "8080";
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
 app.use(express.json());
-app.use(bodyParser.json({ limit: "1mb"}));
+app.use(bodyParser.json({ limit: "1mb" }));
 app.use(bodyParser.urlencoded({ limit: "1mb", extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/", index);
@@ -41,5 +41,5 @@ app.listen(port, err => {
   if (err) {
     return console.error(err);
   }
-    console.log(`Listening to requests on http://localhost:${port}`);
-  });
+  console.log(`Listening to requests on http://localhost:${port}`);
+});
