@@ -1,4 +1,4 @@
-# app (app)
+# Stock Viewer App
 
 Stock Viewer front end
 
@@ -7,7 +7,7 @@ Stock Viewer front end
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Start the app in development mode
 ```bash
 quasar dev
 ```
