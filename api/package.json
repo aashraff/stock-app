@@ -13,7 +13,7 @@
   "author": "Adish",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "eslint": "^7.0.0",
     "nodemon": "^2.0.4"
   },
